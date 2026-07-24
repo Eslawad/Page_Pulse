@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page Pulse</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>Page Pulse</h1>
+
+        <p>Analyze any webpage instantly.</p>
+
+        <div class="input-box">
+            <input type="text" id="url" placeholder="https://example.com">
+            <button id="btn">Analyze</button>
+        </div>
+
+        <div id="loading" class="loading"></div>
+
+        <div id="result" class="result">
+
+            <div class="card">
+                <span>HTTP Status</span>
+                <strong id="status"></strong>
+            </div>
+
+            <div class="card">
+                <span>Response Time</span>
+                <strong id="time"></strong>
+            </div>
+
+            <div class="card">
+                <span>Page Title</span>
+                <strong id="title"></strong>
+            </div>
+
+            <div class="card">
+                <span>Meta Description</span>
+                <strong id="meta"></strong>
+            </div>
+
+            <div class="card">
+                <span>H1 Count</span>
+                <strong id="h1"></strong>
+            </div>
+
+            <div class="card">
+                <span>Images Missing ALT</span>
+                <strong id="alt"></strong>
+            </div>
+
+            <div class="card">
+                <span>Word Count</span>
+                <strong id="words"></strong>
+            </div>
+
+        </div>
+
+        <footer>
+            Built for
+            <a href="https://digitalheroesco.com" target="_blank">
+                Digital Heroes Training Task
+            </a>
+        </footer>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
