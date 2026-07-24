@@ -1,0 +1,8 @@
+GitHub:
+https://github.com/Eslawad/Page_Pulse
+
+Backend:
+https://page-pulse-api-ivvn.onrender.com
+
+Frontend:
+https://page-pulse-theta.vercel.app
